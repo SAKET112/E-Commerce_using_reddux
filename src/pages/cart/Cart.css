@@ -1,0 +1,42 @@
+.cartContainer{
+    margin-top: 100px;
+    margin-left: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    margin-bottom: 100px;   
+}
+
+.productContainer{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.productDetail{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.productContainer img{
+    width: 200px;
+    padding: 20px;
+}
+
+.productContainer button{
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.productContainer button:hover{
+    background-color: #2f2f2f;
+    color: #FFF;
+}
